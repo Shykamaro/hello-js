@@ -1,119 +1,129 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+@import url(global.css);
 
 .header {
-    width: 100%;
-    background: url(img/header-background.png) no-repeat center;
-    background-size: cover;
-    min-height: 680px;
-    margin-bottom: 80px;
+  width: 100%;
+  background: url(img/header-background.png) no-repeat center;
+  background-size: cover;
+  min-height: 680px;
+  margin-bottom: 80px;
 }
 
 .header-navigation {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header__container {
-    margin: 0 auto;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
-    font-family: Graphik;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 55px;
-    letter-spacing: 0.2px;
-    color: white;
-    text-align: center;
-    margin: 60px 0 27px 0;
+  font-family: Graphik;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 55px;
+  letter-spacing: 0.2px;
+  color: white;
+  text-align: center;
+  margin: 60px 0 27px 0;
 }
 
 .header__subtittle {
-    font-family: Graphik;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 40px;
-    letter-spacing: 0.2px;
-    text-align: center;
-    color: white;
-    margin-bottom: 39px;
+  font-family: Graphik;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: var(--main-color-second);
+  margin-bottom: 39px;
 }
 
 .header__button {
-    align-items: center;
-    border-radius: 35px;
-    width: 236px;
-    padding: 16px 0px;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgba(32, 145, 249, 1);
-    color: rgba(255, 255, 255, 1);
+  align-items: center;
+  border-radius: 35px;
+  width: 236px;
+  padding: 16px 0px;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(32, 145, 249, 1);
+  color: var(--main-color-second);
 }
 
 .features__tittle {
-    text-align: center;
-    font-family: Graphik;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 55px;
-    letter-spacing: 0.2px;
-    color: #252B42;
+  font-style: normal;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: var(--main-color-first);
 }
 
 .features__subtittle {
-    text-align: center;
-    color: #374754;
-    font-family: Graphik;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 40px;
-    letter-spacing: 0.2px;
-    margin: 27px 0 87px 0;
+  text-align: center;
+  color: var(--text-color-first);
+  font-family: Graphik;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.2px;
+  margin: 27px 0 87px 0;
 }
 
 .features__cards__item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 93.5px;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 93.5px;
+  align-items: center;
 }
 
 .features__cards__item img {
-    width: 61px;
-    height: 61px;
+  width: 61px;
+  height: 61px;
 }
 
 .features__cards__tittle {
-    text-align: center;
-    color: #252B42;
-    font-family: Graphik;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 28px;
-    letter-spacing: 0.1px;
-    margin: 20px 0;
+  text-align: center;
+  color: var(--main-color-first);
+  font-family: Graphik;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+  margin: 20px 0;
 }
 
 .features__cards__text {
-    text-align: center;
-    color: #374754;
-    font-family: Graphik;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25px;
-    letter-spacing: 0.2px;
+  text-align: center;
+  color: var(--text-color-first);
+  font-family: Graphik;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+}
+.fastest__screen img{
+    width: 372px;
+    height: 225px;
+}
+.newsletter__screen img{
+    width: 371px;
+    height: 347px;
+}
+form input{
+    width: 100%;
+    
+    border-radius: 39px;
+    border: 1px;
+    padding: 19px 35px;
 }

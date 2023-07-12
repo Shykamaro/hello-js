@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Graphik:wght@400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:"Graphik", sans-serif; 
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+:root {
+  --main-color-first: rgba(37, 43, 66, 1);
+  --main-color-second: rgba(255, 255, 255, 1);
+  --text-color-first: rgba(55, 71, 84, 1);
+
+  --text-font-family: "Graphik", sans-serif;
+}
+
