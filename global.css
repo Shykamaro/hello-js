@@ -4,7 +4,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family:"Graphik", sans-serif; 
+  font-family:"Graphik", sans-serif;
+  outline: 1px solid black;
 }
 
 img {
