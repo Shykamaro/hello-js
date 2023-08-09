@@ -14,28 +14,59 @@
         <div class="header__logo">
           <img src="img/dark.png" alt="" />
         </div>
-        <div class="header__burger-menu">
-          <ul>
-            <li class="header__navigation"><a href="#">Home</a></li>
-            <li class="header__navigation"><a href="#">Product</a></li>
-            <li class="header__navigation"><a href="#">Pricing</a></li>
-            <li class="header__navigation"><a href="#">About</a></li>
-            <li class="header__navigation"><a href="#">Contact</a></li>
-          </ul>
+        <div class="menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="header__menu-main-navigation">
+            <nav>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        <div class="menu">
+          <nav>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Product</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
         </div>
+        <div class="header__menu-socials-display">
+          <div class="header__menu-socials">
+            <img src="svg/twitter-svg.svg" alt="">
+            <img src="svg/facebook-svg.svg" alt="">
+            <img src="svg/linkedin-svg.svg" alt="">
+          </div>
+        </div>
+        
+      </div>
       </div>
       <div class="header__container">
         <h1 class="header__tittle">The best products start with Figma</h1>
         <h3 class="header__subtittle">
           Most calendars are designed for teams.
         </h3>
-        <button class="header__button">TRY FOR</button>
+        <button class="header__button button">TRY FOR</button>
       </div>
+        <div class="header__triangles">
+          <div class="header__triangle triangle-left"></div>
+          <div class="header__triangle triangle-right"></div>
+        </div>
     </header>
     <main>
-      <section class="features">
+      <section class="features central-text-elements">
         <h2 class="features__tittle">Features</h2>
-        <h3 class="features__subtittle">
+        <h3 class="features__subtittle central-text-elements">
           Most calendars are designed for teams.
         </h3>
 
@@ -68,32 +99,36 @@
           </article>
         </div>
       </section>
-      <section class="'fastest-way features__cards__item">
-        <h2 class="features__tittle">Fastest way to organize</h2>
-        <h3 class="features__subtittle">
-          Most calendars are designed for teams.
-        </h3>
-        <button class="header__button">TRY FOR</button>
-        <div class="fastest__screen">
-          <img src="img/screen-content-fastest.png" alt="" />
-        </div>
+      <section class="fastest-way flex-container">
+          <div class="fastest-way__description">
+            <h2 class="features__tittle">Fastest way to organize</h2>
+            <h3 class="features__subtittle">
+              Most calendars are designed for teams.
+              <span class="features__deckstope-subtittle">Slate is designed for freelancers</span>
+            </h3>
+            <button class="fastest__button button">TRY FOR FREE</button>
+          </div>
+          <div class="fastest__screen">
+            <img src="img/screen-content-fastest.png" alt="" />
+          </div>
       </section>
        <section class="newsletter features__cards__item">
-        <p class="features__cards__tittle">At your fingertips</p>
-        <h2 class="features__tittle">Newsletter</h2>
-        <h3 class="features__subtittle">
-          Most calendars are designed for teams. Slate is designed for
-          freelancers
-        </h3>
+        <div>
+          <p class="features__cards__tittle">At your fingertips</p>
+          <h2 class="features__tittle central-text-elements">Newsletter</h2>
+          <h3 class="features__subtittle central-text-elements">
+            Most calendars are designed for teams. Slate is designed for
+            freelancers
+          </h3>
+        </div>
         <div class="newsletter__screen">
-          <img src="img/newsletter.png" alt="" />
+          <img src="img/newsletter.png" alt="newsletter" />
         </div>
         <div class="newsletter__little-form">
           <p class="features__cards__tittle">Subscribe to our Newsletter</p>
           <p class="features__cards__text">
             Available exclusivery on Figmaland
           </p>
-
           <form action="" class="newsletter__form">
             <input type="email" placeholder="Your Email" />
             <button class="newsletter__form-button">Subscribe</button>
@@ -101,8 +136,8 @@
         </div>
       </section> 
       <section class="partners features__cards__item">
-        <h2 class="features__tittle">Partners</h2>
-        <h3 class="features__subtittle">
+        <h2 class="features__tittle central-text-elements">Partners</h2>
+        <h3 class="features__subtittle central-text-elements">
           Most calendars are designed for teams. Slate is designed for
           freelancers
         </h3>
@@ -110,8 +145,15 @@
           <img src="img/partners__google.png" alt="Google" />
           <img src="img/partner-amazon.png" alt="Amazon" />
           <img src="img/partner-microsoft.png" alt="Microsoft" />
+          <img src="img/uber-logo.png" class="partners-img__deckstope" alt="Uber" />
         </div>
-        <button class="header__button">TRY FOR</button>
+        <div class="partners__img-conteiner-desktope">
+          <img src="img/dropbox-logo.png" alt="Dropbox" />
+          <img src="img/partners__google.png" alt="Google" />
+          <img src="img/uber-logo.png"  alt="Uber" />
+          <img src="img/partner-amazon.png" alt="Amazon" />
+        </div>
+        <button class="partners__button button">TRY FOR</button>
       </section>
       <section class="testimonials features__cards__item">
         <h2 class="features__tittle">Testimonials</h2>
@@ -131,7 +173,7 @@
             <p class="organizer-text">Ui designer</p>
           </div>
         </div>
-        <button class="header__button">More testimonials</button>
+        <button class="testimonials__button button">More testimonials</button>
       </section>
       <section class="pricing">
         <h2 class="pricing__titlle">Pricing</h2>
@@ -156,7 +198,7 @@
             <p class="pricing-feature">Pricing Feature</p>
             <p class="pricing-feature">Pricing Feature</p>
             <p class="pricing-feature">Pricing Feature</p>
-            <button class="header__button">Order Now</button>
+            <button class="pricing__button button">Order Now</button>
           </div>
           <div class="pricing__cards" id="price-card">
             <p class="pricing__cards-tittle">STANDARD</p>
@@ -175,7 +217,7 @@
             <p class="pricing-feature">Pricing Feature</p>
             <p class="pricing-feature">Pricing Feature</p>
             <p class="pricing-feature">Pricing Feature</p>
-            <button class="header__button" id="button-color">Order Now</button>
+            <button class="pricing__button button" id="button-color">Order Now</button>
           </div>
           <div class="pricing__cards">
             <p class="pricing__cards-tittle">BUSINESS</p>
@@ -194,7 +236,7 @@
             <p class="pricing-feature">Pricing Feature</p>
             <p class="pricing-feature">Pricing Feature</p>
             <p class="pricing-feature">Pricing Feature</p>
-            <button class="header__button">Order Now</button>
+            <button class="pricing__button button">Order Now</button>
           </div>
         </div>
       </section>
@@ -224,6 +266,7 @@
             <img src="./svg/message.png" alt="message" class="contacts__description-icon">
             <p>willie.jennings@example.com</p>
           </div>
+          <div class="contacts__map" id="contacts_map"></div>
         </div>
         <div class="contacts__form">
           <form action="submit">
@@ -284,5 +327,7 @@
       </div>
     </footer>
     <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
+    <script src="script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDk5ZGxtmtWuHvX9LWn238QJuKxX7CaRV8&callback=initMap" async defer></script>
   </body>
 </html>

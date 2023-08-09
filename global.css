@@ -5,7 +5,6 @@
   margin: 0;
   box-sizing: border-box;
   font-family:"Graphik", sans-serif;
-  outline: 1px solid black;
 }
 
 img {
@@ -17,7 +16,25 @@ img {
   --main-color-first: rgba(37, 43, 66, 1);
   --main-color-second: rgba(255, 255, 255, 1);
   --text-color-first: rgba(55, 71, 84, 1);
-
-  --text-font-family: "Graphik", sans-serif;
+}
+ul{
+  list-style: none;
+  text-decoration: none;
 }
 
+.button {
+  align-items: center;
+  border-radius: 35px;
+  width: 236px;
+  padding: 16px 0px;
+  align-items: center;
+  background-color: rgba(32, 145, 249, 1);
+  color: var(--main-color-second);
+}
+
+.flex-container {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  flex-direction: column;
+}
