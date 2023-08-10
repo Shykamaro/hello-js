@@ -5,6 +5,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family:"Graphik", sans-serif;
+  outline: 1px solid black;
 }
 
 img {
@@ -25,7 +26,7 @@ ul{
 .button {
   align-items: center;
   border-radius: 35px;
-  width: 236px;
+  width: 196px;
   padding: 16px 0px;
   align-items: center;
   background-color: rgba(32, 145, 249, 1);

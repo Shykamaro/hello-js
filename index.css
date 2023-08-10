@@ -329,13 +329,13 @@ h1 {
 }
 
 .newsletter {
-  width: 320px;
+  width: 100%;
 
   margin: 0 auto;
 }
 
 .newsletter__screen img {
-  height: 347px;
+  min-height: 347px;
 }
 .newsletter__form {
   display: flex;
@@ -346,12 +346,14 @@ h1 {
   border-radius: 39px;
   border: 1px;
   padding: 19px 35px;
+  width: 100%;
 }
 .newsletter__form-button {
   border-radius: 35px;
   padding: 16px 0px;
   background-color: rgba(32, 145, 249, 1);
   color: var(--main-color-second);
+  width: 100%;
 }
 @media (min-width: 780px) {
   .newsletter {
@@ -365,11 +367,14 @@ h1 {
   margin: 0 auto;
 }
 .partners__img-conteiner img {
-  min-width: 273px;
-  min-height: 151px;
+  min-width: 20%;
+  min-height: 100px;
 }
 .partners__img-conteiner-desktope{
   display: none;
+}
+.partners__subtittle-margin{
+  margin: 40px 0;
 }
 @media (min-width: 780px) {
   .partners-img__deckstope{
@@ -378,10 +383,19 @@ h1 {
   .partners__img-conteiner{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+  }
+  .partners__img-conteiner img{
+    width: 20%;
   }
   .partners__img-conteiner-desktope{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  .partners__img-conteiner-desktope img{
+    width: 20%;
   }
 }
 .testimonials-img {
@@ -399,7 +413,7 @@ h1 {
   display: flex;
 }
 .newsletter__little-form {
-  min-width: 373px;
+  min-width: 323px;
   min-height: 261px;
   align-items: center;
 }
@@ -465,8 +479,10 @@ h1 {
   .pricing__cards-conteiner{
     flex-direction: row;
   }
+  .pricing__cards{
+   width: 30%;
+   }
 }
-
 #button-color {
   background-color: white;
   color: rgba(32, 145, 249, 1);
@@ -546,7 +562,7 @@ h1 {
 }
 
 .contacts__form {
-  margin: 7rem 2rem;
+  margin: 7rem 0.5rem;
   min-width: 320px;
 }
 
@@ -635,4 +651,20 @@ h1 {
 }
 .contacts__description-icon {
   color: white;
+}
+@media (min-width: 780px) {
+  .footer-conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 80px;
+    align-items: center;
+    min-height: 600px;
+    
+
+  }
+  .footer__conteiner-section {
+    justify-content: center;
+    min-height: 100px;
+  }
 }
